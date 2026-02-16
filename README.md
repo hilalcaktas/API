@@ -51,7 +51,15 @@ Postman API testlerini yapma, hataları hızlıca bulma, API belgelerini oluştu
 
 ## Bir API nerede çalışır?
 Sunucu(server) üzerinde çalışı. istemciden(client)den gelen isteğikarşılayan backend tarafıdır.
+--Amacına göre apı
+1. Dahili (Internal) API : Sadece belirli kişilerin kullanmasına izin verir
+2. Open (Public) API : Herkesin kullanımına açık olan sistemler
+3. Partner API : Anlaşma yapıp eşleşen firmaların kullandığı bir sistemdir
+4. Composite API : istemcinin birden fazla veriye aynı anda ulaşmasını sağlar
 
+--Mimari yapısına göre apı
+1. REST API : En yaygın ve basit, HTTP protokolünü kullanır, Genellikle JSON formatında veri gönderir
+2. SOAP API : Daha katı kurallıdır, XML veri formatı kullanır
 
 
 
