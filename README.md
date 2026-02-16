@@ -41,6 +41,14 @@ API'leri belgeler, test eder, görselleştirir. API'lerin hangi HTTP metodların
 Postman API testlerini yapma, hataları hızlıca bulma, API belgelerini oluşturma paylaşma, işbirliği yapıldığında belgeleri paylaşabilmek için kullanılır.
 **Postman**, öncelikle istek türü seçilir, API’nin URL adresi girilir ve gerekiyorsa Body kısmına JSON veri eklenir. Ardından “Send” butonuna basılarak istek gönderilir. Postman, sunucudan dönen HTTP durum kodunu (200, 404, 500 vb.) ve response içeriğini ekranda gösterir. Bu sayede API’nin doğru çalışıp çalışmadığı kolayca test edilir.
 
+| Özellik       | Swagger              | Postman            |
+| ------------- | -------------------- | ------------------ |
+| Amaç          | Dokümantasyon + Test | API Test           |
+| Çalışma Şekli | API projesi içinde   | Bağımsız uygulama  |
+| Kullanım      | Tarayıcı üzerinden   | Masaüstü uygulama  |
+| Hedef         | API geliştiricisi    | Tüm geliştiriciler |
+
+
 ## Bir API nerede çalışır?
 Sunucu(server) üzerinde çalışı. istemciden(client)den gelen isteğikarşılayan backend tarafıdır.
 
